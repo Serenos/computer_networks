@@ -1,0 +1,3 @@
+C语言原理：
+运行环境在linux操作系统下，通过一个virtual_serial的程序来创建两个虚拟端口为下面的通信做准备
+程序主体分为几个函数，open_seiral打开串口，set_baudrate为设置串口的波特率，set_bit_rate为设置数据位。set_parity为设置校验位，set_stop_bit为设置停止位。通过fd和write和read函数实现数据通信。
